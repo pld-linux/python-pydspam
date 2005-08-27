@@ -19,14 +19,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Python interface for dspam library.
 
 %description -l pl
-Interfejs Pythona do biblioteki dspam
+Interfejs Pythona do biblioteki dspam.
 
 %prep
 %setup -q -n %{module}-%{version}
 %patch0 -p1
 
 %build
-
 python setup.py build
 
 %install
