@@ -1,5 +1,5 @@
 Summary:	Python interface for dspam library
-Summary(pl):	Interfejs Pythona do biblioteki dspam
+Summary(pl.UTF-8):   Interfejs Pythona do biblioteki dspam
 %define	module	pydspam
 Name:		python-%{module}
 Version:	1.1.9
@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Python interface for dspam library.
 
-%description -l pl
+%description -l pl.UTF-8
 Interfejs Pythona do biblioteki dspam.
 
 %prep
