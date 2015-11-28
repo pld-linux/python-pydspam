@@ -26,12 +26,12 @@ Interfejs Pythona do biblioteki dspam.
 %patch0 -p1
 
 %build
-python setup.py build
+%py_build
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-python setup.py install --optimize=2 --root=$RPM_BUILD_ROOT
+%py_install
 
 %clean
 rm -rf $RPM_BUILD_ROOT
