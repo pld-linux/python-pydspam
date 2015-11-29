@@ -10,6 +10,7 @@ Source0:	http://dl.sourceforge.net/pymilter/%{module}-%{version}.tar.gz
 # Source0-md5:	1caff10d2fa3968ed8e0def126f74b40
 Patch0:		%{name}-setup.patch
 URL:		http://www.bmsi.com/python/dspam.html
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	dspam-devel
 BuildRequires:	python-devel >= 2.2.1
 %pyrequires_eq	python-modules
